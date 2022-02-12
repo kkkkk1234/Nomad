@@ -1,21 +1,13 @@
-const title = document.querySelector("div.hello:first-child h1");
-
-console.dir(title);
+const h1 = document.querySelector("div.hello:first-child h1");
 
 function handleTitleClick() {
-     title.style.color = "blue";
-}
-
-function handlemouseenter() {
-   title.innerHTML = "mouse is over";
-}
-
-function handlemouseout() {
-   title.innerHTML = "mouse is out!"
-}
-
-title.addEventListener("click", handleTitleClick);
-title.addEventListener("mouseenter", handlemouseenter);
-title.addEventListener("mouseout", handlemouseout);
+    if(h1.style.color === "blue") {
+       h1.style.color = "tomato";
+    }
+ else{h1.style.color="blue";}
+   }
 
 
+
+
+h1.addEventListener("click",handleTitleClick);
