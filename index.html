@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>momentum</title>
+
+<body>
+    <form id="login-form" class="dontshow">
+        <input type="text" placeholder="What's your name"/>
+        <input type="submit" value="Log In"/>
+    </form>
+    <h1 id="greeting" class="dontshow"></h1>
+    <h2 id="clock">00:00</h2>
+
+    <form id ="todo-form">
+    <input type="text" placeholder="Write a To Do Press Enter" required>
+</form>
+<ul id="todo-list">
+    
+</ul>
+
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+    <script src="js/quotes.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+</body>
+
+
+</html>
+
+<!-- 
+    form이 있고, h1도 있는데 hidden을 적용했을 때 h1은 표시할 text가 있을 때만
+    표시되도록 할 것이다!
+ -->
+
+<!-- 
+
+ -->
+
+<!-- 
+    링크의 기본 동작은 클릭 시 다른 페이지로 이동
+    submit의 기본 동작은 새로고침이다.
+ -->
+
+<!-- 
+    1.우리가 js에서 html항목을 가져오는 방법은 
+    document 객체와, element를 가져오는 수 많은 함수들을 이용하는 것이다.
+    document는 웹사이트 그 자체다.
+    property 이름 앞에 on이 붙어있으면, 그게 바로 event listener이다.
+ -->

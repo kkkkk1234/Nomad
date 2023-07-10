@@ -1,0 +1,61 @@
+
+
+
+.dontshow{
+    display:none;
+}
+/*
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+h1 {
+    color : tomato;
+}
+
+body {
+    color : darkorange;
+}
+
+.sexy-font{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.clicked {
+    color : blue;
+}
+
+/*
+h1에 active class를 전달해 주고 싶다
+selector 정리 
+. -> class 지정 
+ */
